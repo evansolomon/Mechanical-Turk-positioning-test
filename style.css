@@ -1,0 +1,55 @@
+h2,h3 {
+	color:#666666;
+}
+
+#wrap {
+	position: absolute;
+	width:800px;
+	font-family:Helvetica, arial, sans-serif;
+}
+
+#box_1 { 
+	position: absolute;
+	top: 100;
+	left: 0;
+	width: 380px;
+	height: 220px;
+	border-style:solid;
+	border-width:1px;
+}
+
+#box_1:hover { 
+	background: #33cc33;
+	color:white;
+}
+
+#box_2 { 
+	position: absolute;
+	top: 100;
+	right: 0;
+	width: 380px;
+	height: 220px;
+	border-style:solid;
+	border-width:1px;
+}
+
+#box_2:hover	{
+	background: #33cc33;
+	color:white;
+}
+
+.text {
+	padding: 20px;
+	font-size: 1.2em;
+}
+
+#thanks {
+	width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 4em;
+}
+
+#answer {
+	width: 800px;
+}
