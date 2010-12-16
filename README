@@ -1,0 +1,10 @@
+This is really just for example purposes.  There's a very good chance that this software is vulnerable to XSS, SQL injections, fire, brimstone and other l33t problems.  It also does no error handling (that I know of) violates nearly every rule of good software design and probably has bugs I don't even know about, to say nothing of knowing how to fix them.  Use at your own risk.
+
+If you are actually feeling risky, create a database and use database.sql to create the relevant table, update/add values in config.php to reflect your company/product and setup your database info in functions.php.
+
+If you append ?t=1 to the directory root url it will only give each participant one question and then it will give them a code to output into mechanical turk.  This code is similar to what gets saved to the database and is really just used to make sure they complete the survey.
+
+Feel free to do whatever you want with this code, whenever you want, however you want and with whomever you want.  Just don't blame me or ask me to bail you out of jail.
+
+-evan
+e@evanalyze.com
