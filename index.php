@@ -28,7 +28,7 @@ for($i=0,$let='a';$i<count($inputs);$i++,$let++){
 			}
 			else{
 				echo "<h2>Please click on the box with the description you like best</h2>
-			<h3>These are two example descriptions of a company called Insidr</h3>";
+			<h3>These are two example descriptions of a company called ".$company."</h3>";
 			}
 			?>
 			
